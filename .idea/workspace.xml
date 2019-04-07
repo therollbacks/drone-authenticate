@@ -1,7 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96cc316c-9021-487d-bd69-4693aae2c5e3" name="Default Changelist" comment="" />
+    <list default="true" id="96cc316c-9021-487d-bd69-4693aae2c5e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set10DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set10TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set11DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set11TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set12DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set12TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set13DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set13TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set14DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set14TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set15DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set15TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set16DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set16TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set17DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set17TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set18DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set18TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set19DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set19TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set20DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set20TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set3DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set3TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set4DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set4TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set5DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set5TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set6DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set6TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set7DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set7TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set8DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set8TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set9DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60points/Set9TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/all_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compareddataSet9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet10DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet10TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet11DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet11TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet12DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet12TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet13DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet13TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet14DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet14TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet15DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet15TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet16DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet16TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet17DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet17TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet18DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet18TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet19DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet19TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet20DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet20TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet3DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet3TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet4DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet4TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet5DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet5TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet6DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet6TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet7DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet7TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet8DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet8TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet9DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSet9TP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/format.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +105,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/format.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+            <state relative-caret-position="1425">
+              <caret line="126" column="30" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -22,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/svm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+            <state relative-caret-position="874">
+              <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -40,12 +135,22 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>justname</find>
+      <find>compared</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="E:/Downloads/test3.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/svm.py" />
+        <option value="$PROJECT_DIR$/format.py" />
       </list>
     </option>
   </component>
@@ -54,6 +159,7 @@
     <option name="width" value="978" />
     <option name="height" value="1089" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -74,6 +180,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -107,7 +214,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Ryan\Desktop\2515\test\format.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,12 +268,12 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16776751" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12021136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32931727" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16733602" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -194,16 +301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/test_csv-1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1178">
@@ -213,8 +310,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/svm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+        <state relative-caret-position="874">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/format.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="126" column="30" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
