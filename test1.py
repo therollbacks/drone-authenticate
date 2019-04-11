@@ -74,7 +74,7 @@ def main():
     pathName = os.getcwd()
 
     numFiles = []
-    fileNames = os.listdir('60points')
+    fileNames = os.listdir('unformatted')
 
     for fileNames in fileNames:
         if fileNames.endswith(".csv"):
@@ -83,7 +83,7 @@ def main():
 
     count = 0
     for i in numFiles:
-        filedir = (os.path.join(pathName, '60points', i))
+        filedir = (os.path.join(pathName, 'unformatted', i))
 
         obj.open_file_w_headers(filedir, numFiles[count])
         count = count + 1
