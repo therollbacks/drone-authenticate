@@ -17,6 +17,7 @@ full_data = []
 sample_size = 100000
 filename_list = []
 
+
 class TestCsv:
 
     def __init__(self):
@@ -91,7 +92,7 @@ class TestCsv:
         print(false_counter)
         print(justname)
 
-        compared_file_name = './compared'+justname[11:] + 'compared.csv'
+        compared_file_name = './compared' + justname[11:] + 'compared.csv'
         print(compared_file_name)
         with open(compared_file_name, 'w', newline='') as openFile:
             print('making compare file')
