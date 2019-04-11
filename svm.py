@@ -109,11 +109,8 @@ for filename in filenames:
     accuracy_list.append(accuracy)
     sensitivity = TP / (TP + FN)
     sensitivity_list.append(sensitivity)
-    try:
-        specificity = TN / (TN + FP)
-        specificity_list.append(specificity)
-    except:
-        continue
+    specificity = TN / (TN + FP)
+    specificity_list.append(specificity)
 
 accuracy_total = 0
 sensitivity_total = 0
