@@ -1,16 +1,16 @@
-
 from matplotlib import style
+
 style.use("ggplot")
 import csv
 import json
 import os
 import pandas as pd
 from sklearn.svm import SVR
-svr = SVR(kernel="linear",gamma="auto")
 
-
+svr = SVR(kernel="linear", gamma="auto")
 
 headers = ['TimeUS', 'Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng', 'Q1', 'Q2', 'Q3', 'Q4']
+
 
 class Format:
     def __init__(self):
@@ -44,28 +44,25 @@ class Format:
                 emp_list_inner = []
         new_file_name = "data" + filename
 
-        with open(new_file_name, 'w', newline='') as outfile:
+        with open('./formatted/' + new_file_name, 'w', newline='') as outfile:
             wr = csv.writer(outfile)
             wr.writerows(emp_list)
 
-        with open(new_file_name, newline='') as f:
+        with open('./formatted/' + new_file_name, newline='') as f:
             r = csv.reader(f)
             data = [line for line in r]
             print(data)
 
-        with open(new_file_name, 'w', newline='') as f:
+        with open('./formatted/' + new_file_name, 'w', newline='') as f:
             w = csv.writer(f)
             w.writerow(['Start', 'TimeUS', 'Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng', 'Q1', 'Q2', 'Q3', 'Q4'])
             w.writerows(data)
 
-        f= pd.read_csv(new_file_name)
-        keep_col = ['Roll','Pitch','Yaw','Alt','Lat','Lng']
+        f = pd.read_csv('./formatted/' + new_file_name)
+        keep_col = ['Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng']
         new_f = f[keep_col]
-        newer_file_name = "Improved" + filename
-        new_f.to_csv(newer_file_name, index = False)
-
-
-
+        newer_file_name = "formatted" + filename
+        new_f.to_csv('./formatted/' + newer_file_name, index=False)
 
 
 def main():
@@ -88,6 +85,5 @@ def main():
         obj.open_file_w_headers(filedir, numFiles[count])
         count = count + 1
 
+
 if __name__ == '__main__': main()
-
-
