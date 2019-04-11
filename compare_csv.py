@@ -10,9 +10,8 @@ svr = SVR(kernel="linear", gamma="auto")
 
 # go through both files and find dissimilar longitude and latitude
 
-headers = ['TimeUS', 'Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng', 'Q1', 'Q2', 'Q3', 'Q4']
-first_line = ['Start', 'TimeUS', 'Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng', 'Q1', 'Q2', 'Q3', 'Q4',
-              'Category']
+headers = ['Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng']
+first_line = ['Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng', 'Category']
 full_data = []
 sample_size = 100000
 filename_list = []
@@ -106,15 +105,15 @@ class TestCsv:
             full_data.append(row)
         openFile.close()
 
-    def check_category(self):
-        cat_list = []
-        with open('comparedNW.csv') as f:
-            for line in csv.reader(f):
-                print(line[6])
-                if line[6] == '1':
-                    cat_list.append(line[6])
-        print('predicted number of incorrect values is', len(cat_list))
-        print('actual number of incorrect values is 1096')
+    # def check_category(self):
+    #     cat_list = []
+    #     with open('comparedNW.csv') as f:
+    #         for line in csv.reader(f):
+    #             print(line[6])
+    #             if line[6] == '1':
+    #                 cat_list.append(line[6])
+    #     print('predicted number of incorrect values is', len(cat_list))
+    #     print('actual number of incorrect values is 1096')
 
 
 def main():

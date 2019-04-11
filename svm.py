@@ -7,6 +7,11 @@ accuracy_list = []
 sensitivity_list = []
 specificity_list = []
 
+
+def reset_variables():
+    print('resetting variables')
+
+
 filelist = os.listdir("./compared")
 filenames = []
 for file in filelist:
@@ -15,6 +20,7 @@ for file in filelist:
 print(filenames)
 
 for filename in filenames:
+    reset_variables()
     cc = pd.read_csv("./compared/" + filename)
 
     # .loc primarily label based. used to access a column data or row
@@ -103,8 +109,11 @@ for filename in filenames:
     accuracy_list.append(accuracy)
     sensitivity = TP / (TP + FN)
     sensitivity_list.append(sensitivity)
-    specificity = TN / (TN + FP)
-    specificity_list.append(specificity)
+    try:
+        specificity = TN / (TN + FP)
+        specificity_list.append(specificity)
+    except:
+        continue
 
 accuracy_total = 0
 sensitivity_total = 0
@@ -116,9 +125,9 @@ for sens in sensitivity_list:
 for spec in specificity_list:
     specificity_total += spec
 
-accuracy_total = accuracy_total/len(filelist)
-sensitivity_total = sensitivity_total/len(filelist)
-specificity_total = specificity_total/len(filelist)
+accuracy_total = accuracy_total / len(filelist)
+sensitivity_total = sensitivity_total / len(filelist)
+specificity_total = specificity_total / len(filelist)
 
 print("Accuracy: ", accuracy_total)
 print("Sensitivity: ", sensitivity_total)
