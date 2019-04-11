@@ -4,7 +4,6 @@ from sklearn import svm
 
 cc = pd.read_csv("comparedNW.csv")
 
-
 # .loc primarily label based. used to access a column data or row
 nor_obs = cc.loc[cc.Category == 0]  # Data frame with normal observation
 ano_obs = cc.loc[cc.Category == 1]
@@ -52,7 +51,7 @@ print(np.asarray((unique, counts)).T)
 # makes a table using Y test
 Y_test = Y_test.to_frame()
 
-#creates index
+# creates index
 Y_test = Y_test.reset_index()
 print(Y_test)
 
@@ -64,14 +63,12 @@ fraud_pred = pd.DataFrame(fraud_pred)
 fraud_pred = fraud_pred.rename(columns={0: 'prediction'})
 
 # if not a fraud
-fraud_pred[fraud_pred['prediction']==1]=0
+fraud_pred[fraud_pred['prediction'] == 1] = 0
 # if a fraud
-fraud_pred[fraud_pred['prediction']==-1]=1
+fraud_pred[fraud_pred['prediction'] == -1] = 1
 
 print(fraud_pred['prediction'].value_counts())
-print(sum(fraud_pred['prediction'])/fraud_pred['prediction'].shape[0])
-
-
+print(sum(fraud_pred['prediction']) / fraud_pred['prediction'].shape[0])
 
 ##Performance check of the model
 
@@ -90,8 +87,8 @@ print(TP, FN, FP, TN)
 # Performance Matrix
 
 accuracy = (TP + TN) / (TP + FN + FP + TN)
-print("accuracy:", accuracy)
+print("accuracy: ", accuracy)
 sensitivity = TP / (TP + FN)
-print(sensitivity)
+print("sensitivity: ", sensitivity)
 specificity = TN / (TN + FP)
-print(specificity)
+print("specificity: ", specificity)
