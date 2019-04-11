@@ -52,10 +52,10 @@ class TestCsv:
             print("goodfile is ", goodfile)
             next(f)
             for line in csv.reader(f):
-                if line[6] not in self.true_lat_list:
-                    self.true_lat_list.append(float(line[6]))
-                if line[7] not in self.true_lng_list:
-                    self.true_lng_list.append(float(line[7]))
+                if line[4] not in self.true_lat_list:
+                    self.true_lat_list.append(float(line[4]))
+                if line[5] not in self.true_lng_list:
+                    self.true_lng_list.append(float(line[5]))
 
         error_range = 0.0000100
         self.lat_min = min(self.true_lat_list) - error_range
@@ -76,11 +76,11 @@ class TestCsv:
             next(f)
             for line in csv.reader(f):
                 current_line = line
-                if float(line[6]) < self.lat_min or float(line[6]) > self.lat_max:
+                if float(line[4]) < self.lat_min or float(line[4]) > self.lat_max:
                     false_counter += 1
                     current_line.append(1)
                     compared_file_list.append(current_line)
-                elif float(line[7]) < self.lng_min or float(line[7]) > self.lng_max:
+                elif float(line[5]) < self.lng_min or float(line[5]) > self.lng_max:
                     false_counter += 1
                     current_line.append(1)
                     compared_file_list.append(current_line)
@@ -92,7 +92,7 @@ class TestCsv:
         print(false_counter)
         print(justname)
 
-        compared_file_name = './compared' + justname[11:] + 'compared.csv'
+        compared_file_name = './compared/' + justname[21:] + 'compared.csv'
         print(compared_file_name)
         with open(compared_file_name, 'w', newline='') as openFile:
             print('making compare file')
@@ -110,9 +110,9 @@ class TestCsv:
         cat_list = []
         with open('comparedNW.csv') as f:
             for line in csv.reader(f):
-                print(line[12])
-                if line[12] == '1':
-                    cat_list.append(line[12])
+                print(line[6])
+                if line[6] == '1':
+                    cat_list.append(line[6])
         print('predicted number of incorrect values is', len(cat_list))
         print('actual number of incorrect values is 1096')
 

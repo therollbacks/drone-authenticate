@@ -2,249 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96cc316c-9021-487d-bd69-4693aae2c5e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet10DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet10TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet11DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet11TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet12DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet12TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet13DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet13TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet14DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet14TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet15DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet15TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet16DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet16TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet17DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet17TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet18DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet18TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet19DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet19TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet1DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet1TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet20DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet20TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet21DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet21TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet22DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet22TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet23DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet23TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet24DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet24TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet25DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet25TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet26DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet26TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet27DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet27TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet28DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet28TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet29DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet29TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet2DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet2TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet30DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet30TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet31DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet31TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet32DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet32TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet33DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet33TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet34DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet34TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet35DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet35TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet36DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet36TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet37DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet37TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet38DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet38TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet39DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet39TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet3DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet3TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet40DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet40TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet41DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet41TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet42DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet42TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet43DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet43TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet44DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet44TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet45DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet45TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet46DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet46TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet47DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet47TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet48DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet48TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet49DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet49TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet4DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet4TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet50DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet50TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet51DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet51TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet52DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet52TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet53DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet53TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet54DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet54TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet55DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet55TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet56DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet56TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet57DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet57TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet58DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet58TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet59DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet59TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet5DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet5TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet60DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet60TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet6DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet6TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet7DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet7TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet8DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet8TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet9DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/ImprovedSet9TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet10DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet10TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet11DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet11TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet12DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet12TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet13DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet13TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet14DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet14TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet15DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet15TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet16DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet16TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet17DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet17TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet18DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet18TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet19DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet19TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet1DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet1TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet20DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet20TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet21DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet21TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet22DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet22TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet23DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet23TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet24DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet24TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet25DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet25TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet26DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet26TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet27DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet27TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet28DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet28TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet29DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet29TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet2DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet2TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet30DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet30TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet31DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet31TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet32DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet32TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet33DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet33TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet34DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet34TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet35DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet35TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet36DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet36TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet37DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet37TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet38DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet38TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet39DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet39TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet3DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet3TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet40DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet40TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet41DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet41TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet42DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet42TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet43DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet43TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet44DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet44TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet45DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet45TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet46DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet46TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet47DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet47TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet48DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet48TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet49DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet49TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet4DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet4TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet50DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet50TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet51DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet51TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet52DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet52TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet53DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet53TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet54DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet54TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet55DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet55TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet56DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet56TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet57DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet57TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet58DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet58TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet59DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet59TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet5DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet5TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet60DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet60TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet6DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet6TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet7DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet7TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet8DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet8TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet9DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YEET/dataSet9TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet10DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_convert_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compare_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/compare_csv.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -254,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/compare_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="125" column="4" selection-start-line="125" selection-start-column="4" selection-end-line="125" selection-end-column="41" />
+            <state relative-caret-position="276">
+              <caret line="99" column="39" lean-forward="true" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -282,15 +40,15 @@
         <entry file="file://$PROJECT_DIR$/convert_csv.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="836">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_convert_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="466">
               <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
             </state>
           </provider>
@@ -308,9 +66,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>justname</find>
-      <find>compared</find>
-      <find>data</find>
       <find>data4</find>
+      <find>data</find>
+      <find>just</find>
+      <find>open_file</find>
+      <find>compared</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -326,6 +86,7 @@
         <option value="$PROJECT_DIR$/format_csv.py" />
         <option value="$PROJECT_DIR$/svm.py" />
         <option value="$PROJECT_DIR$/new_convert_csv.py" />
+        <option value="$PROJECT_DIR$/compare_csv.py" />
       </list>
     </option>
   </component>
@@ -347,11 +108,6 @@
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="formatted" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -381,7 +137,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.new_convert_csv">
+  <component name="RunManager" selected="Python.compare_csv">
+    <configuration name="compare_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compare_csv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="convert_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -416,27 +193,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\Ryan\Desktop\2515\test\compare_csv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Ryan\Desktop\2515\test\format.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -489,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.compare_csv" />
         <item itemvalue="Python.new_convert_csv" />
         <item itemvalue="Python.svm" />
         <item itemvalue="Python.format_csv" />
         <item itemvalue="Python.convert_csv" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -514,12 +270,12 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12021136" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12021136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32931727" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16733602" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16733602" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -573,16 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compare_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="125" column="4" selection-start-line="125" selection-start-column="4" selection-end-line="125" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/svm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -599,14 +345,24 @@
     <entry file="file://$PROJECT_DIR$/convert_csv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_convert_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="466">
           <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="99" column="39" lean-forward="true" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
