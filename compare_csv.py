@@ -137,6 +137,7 @@ def main():
 
     count = 0
     for i in range(0, len(goodFiles)):
+        print(len(goodFiles))
         good_data_file_name = goodFiles[i]
         bad_data_file_name = badFiles[i]
         print(good_data_file_name, bad_data_file_name)
