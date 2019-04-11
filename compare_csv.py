@@ -48,7 +48,7 @@ class TestCsv:
         self.lng_max = 0
 
         with open(goodfile) as f:
-            print("goodfile is ", goodfile)
+            # print("goodfile is ", goodfile)
             next(f)
             for line in csv.reader(f):
                 if line[4] not in self.true_lat_list:
@@ -56,14 +56,14 @@ class TestCsv:
                 if line[5] not in self.true_lng_list:
                     self.true_lng_list.append(float(line[5]))
 
-        error_range = 0.0000100
+        error_range = 0.0000000
         self.lat_min = min(self.true_lat_list) - error_range
         self.lat_max = max(self.true_lat_list) + error_range
         self.lng_min = min(self.true_lng_list) - error_range
         self.lng_max = max(self.true_lng_list) + error_range
 
-        print(self.lat_min, self.lat_max)
-        print(self.lng_min, self.lng_max)
+        # print(self.lat_min, self.lat_max)
+        # print(self.lng_min, self.lng_max)
 
         self.open_file_w_headers_second(badfile, justname)
 
@@ -88,13 +88,13 @@ class TestCsv:
                     compared_file_list.append(current_line)
         f.close()
 
-        print(false_counter)
+        print("false count: ",false_counter)
         print(justname)
 
         compared_file_name = './compared/' + justname[21:] + 'compared.csv'
-        print(compared_file_name)
+        # print(compared_file_name)
         with open(compared_file_name, 'w', newline='') as openFile:
-            print('making compare file')
+            # print('making compare file')
             writer = csv.writer(openFile)
             writer.writerow(first_line)
             for row in compared_file_list:

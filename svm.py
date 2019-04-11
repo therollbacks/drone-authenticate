@@ -60,11 +60,11 @@ for filename in filenames:
 
     oneclass.fit(train_feature)
     fraud_pred = oneclass.predict(X_test)
-    print('fraud pred is ', fraud_pred)
+    # print('fraud pred is ', fraud_pred)
 
     # Check the number of outliers predicted by the algorithm
     unique, counts = np.unique(fraud_pred, return_counts=True)
-    print(np.asarray((unique, counts)).T)
+    # print(np.asarray((unique, counts)).T)
 
     # Convert Y-test and fraud_pred to dataframe for ease of operation
     # makes a table using Y test
@@ -72,7 +72,7 @@ for filename in filenames:
 
     # creates index
     Y_test = Y_test.reset_index()
-    print(Y_test)
+    # print(Y_test)
 
     # print('y_test with index is ', Y_test)
     # creates dataframe using fraud pred (list of 139)
@@ -86,8 +86,8 @@ for filename in filenames:
     # if a fraud
     fraud_pred[fraud_pred['prediction'] == -1] = 1
 
-    print(fraud_pred['prediction'].value_counts())
-    print(sum(fraud_pred['prediction']) / fraud_pred['prediction'].shape[0])
+    # print(fraud_pred['prediction'].value_counts())
+    # print(sum(fraud_pred['prediction']) / fraud_pred['prediction'].shape[0])
 
     # Performance check of the model
 
@@ -101,6 +101,7 @@ for filename in filenames:
             FP = FP + 1
         else:
             TN = TN + 1
+    print(filename)
     print(TP, FN, FP, TN)
 
     # Performance Matrix
