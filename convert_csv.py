@@ -43,15 +43,15 @@ class Format:
                 emp_list_inner = []
         new_file_name = "data" + filename
 
-        with open(new_file_name, 'w', newline='') as outfile:
+        with open('./formatted/' + new_file_name, 'w', newline='') as outfile:
             wr = csv.writer(outfile)
             wr.writerows(emp_list)
 
-        with open(new_file_name, newline='') as f:
+        with open('./formatted/' + new_file_name, newline='') as f:
             r = csv.reader(f)
             data = [line for line in r]
 
-        with open(new_file_name, 'w', newline='') as f:
+        with open('./formatted/' + new_file_name, 'w', newline='') as f:
             w = csv.writer(f)
             w.writerow(['Start', 'TimeUS', 'Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng', 'Q1', 'Q2', 'Q3', 'Q4'])
             w.writerows(data)
