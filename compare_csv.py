@@ -10,9 +10,8 @@ svr = SVR(kernel="linear", gamma="auto")
 
 # go through both files and find dissimilar longitude and latitude
 
-headers = ['TimeUS', 'Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng', 'Q1', 'Q2', 'Q3', 'Q4']
-first_line = ['Start', 'TimeUS', 'Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng', 'Q1', 'Q2', 'Q3', 'Q4',
-              'Category']
+headers = ['Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng']
+first_line = ['Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng', 'Category']
 full_data = []
 sample_size = 100000
 filename_list = []
@@ -49,22 +48,22 @@ class TestCsv:
         self.lng_max = 0
 
         with open(goodfile) as f:
-            print("goodfile is ", goodfile)
+            # print("goodfile is ", goodfile)
             next(f)
             for line in csv.reader(f):
-                if line[6] not in self.true_lat_list:
-                    self.true_lat_list.append(float(line[6]))
-                if line[7] not in self.true_lng_list:
-                    self.true_lng_list.append(float(line[7]))
+                if line[4] not in self.true_lat_list:
+                    self.true_lat_list.append(float(line[4]))
+                if line[5] not in self.true_lng_list:
+                    self.true_lng_list.append(float(line[5]))
 
-        error_range = 0.0000100
+        error_range = 0.0000000
         self.lat_min = min(self.true_lat_list) - error_range
         self.lat_max = max(self.true_lat_list) + error_range
         self.lng_min = min(self.true_lng_list) - error_range
         self.lng_max = max(self.true_lng_list) + error_range
 
-        print(self.lat_min, self.lat_max)
-        print(self.lng_min, self.lng_max)
+        # print(self.lat_min, self.lat_max)
+        # print(self.lng_min, self.lng_max)
 
         self.open_file_w_headers_second(badfile, justname)
 
@@ -76,11 +75,11 @@ class TestCsv:
             next(f)
             for line in csv.reader(f):
                 current_line = line
-                if float(line[6]) < self.lat_min or float(line[6]) > self.lat_max:
+                if float(line[4]) < self.lat_min or float(line[4]) > self.lat_max:
                     false_counter += 1
                     current_line.append(1)
                     compared_file_list.append(current_line)
-                elif float(line[7]) < self.lng_min or float(line[7]) > self.lng_max:
+                elif float(line[5]) < self.lng_min or float(line[5]) > self.lng_max:
                     false_counter += 1
                     current_line.append(1)
                     compared_file_list.append(current_line)
@@ -89,13 +88,13 @@ class TestCsv:
                     compared_file_list.append(current_line)
         f.close()
 
-        print(false_counter)
+        print("false count: ",false_counter)
         print(justname)
 
-        compared_file_name = './compared' + justname[11:] + 'compared.csv'
-        print(compared_file_name)
+        compared_file_name = './compared/' + justname[21:] + 'compared.csv'
+        # print(compared_file_name)
         with open(compared_file_name, 'w', newline='') as openFile:
-            print('making compare file')
+            # print('making compare file')
             writer = csv.writer(openFile)
             writer.writerow(first_line)
             for row in compared_file_list:
@@ -106,15 +105,15 @@ class TestCsv:
             full_data.append(row)
         openFile.close()
 
-    def check_category(self):
-        cat_list = []
-        with open('comparedNW.csv') as f:
-            for line in csv.reader(f):
-                print(line[12])
-                if line[12] == '1':
-                    cat_list.append(line[12])
-        print('predicted number of incorrect values is', len(cat_list))
-        print('actual number of incorrect values is 1096')
+    # def check_category(self):
+    #     cat_list = []
+    #     with open('comparedNW.csv') as f:
+    #         for line in csv.reader(f):
+    #             print(line[6])
+    #             if line[6] == '1':
+    #                 cat_list.append(line[6])
+    #     print('predicted number of incorrect values is', len(cat_list))
+    #     print('actual number of incorrect values is 1096')
 
 
 def main():

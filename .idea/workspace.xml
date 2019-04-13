@@ -2,11 +2,255 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96cc316c-9021-487d-bd69-4693aae2c5e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/k_nearest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Set20compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Set23compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Set25compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Set51compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Set53compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set10compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set11compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set12compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set13compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set14compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set15compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set16compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set17compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set18compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set19compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set1compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set20compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set21compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set22compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set23compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set24compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set25compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set26compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set27compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set28compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set29compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set2compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set30compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set31compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set32compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set33compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set34compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set35compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set36compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set37compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set38compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set39compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set3compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set40compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set41compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set42compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set43compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set44compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set45compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set46compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set47compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set48compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set49compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set4compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set50compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set51compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set52compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set53compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set54compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set55compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set56compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set57compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set58compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set59compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set5compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set60compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set6compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set7compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set8compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compared/Set9compared.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet10DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet10TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet11DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet11TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet12DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet12TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet13DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet13TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet14DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet14TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet15DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet15TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet16DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet16TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet17DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet17TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet18DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet18TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet19DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet19TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet1DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet1TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet20DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet20TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet21DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet21TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet22DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet22TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet23DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet23TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet24DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet24TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet25DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet25TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet26DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet26TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet27DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet27TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet28DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet28TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet29DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet29TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet2DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet2TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet30DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet30TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet31DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet31TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet32DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet32TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet33DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet33TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet34DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet34TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet35DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet35TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet36DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet36TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet37DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet37TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet38DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet38TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet39DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet39TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet3DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet3TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet40DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet40TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet41DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet41TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet42DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet42TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet43DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet43TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet44DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet44TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet45DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet45TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet46DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet46TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet47DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet47TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet48DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet48TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet49DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet49TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet4DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet4TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet50DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet50TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet51DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet51TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet52DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet52TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet53DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet53TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet54DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet54TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet55DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet55TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet56DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet56TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet57DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet57TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet58DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet58TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet59DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet59TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet5DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet5TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet60DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet60TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet6DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet6TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet7DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet7TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet8DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet8TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet9DT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatted/formattedSet9TP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_convert_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/all_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compare_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/compare_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet10compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet11compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet12compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet13compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet14compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet15compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet16compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet17compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet18compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet19compared.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/compared/dataSet1compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/dataSet1compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet20compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet21compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet22compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet23compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet24compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet25compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet26compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet27compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet28compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet29compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet2compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet30compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet31compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet32compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet33compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet34compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet35compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet36compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet37compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet38compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet39compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet3compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet40compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet41compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet42compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet43compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet44compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet45compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet46compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet47compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet48compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet49compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet4compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet50compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet51compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet52compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet53compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet54compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet55compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet56compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet57compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet58compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet59compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet5compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet60compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet6compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet7compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet8compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/dataSet9compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/svm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +264,7 @@
         <entry file="file://$PROJECT_DIR$/compare_csv.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2700">
-              <caret line="154" selection-start-line="154" selection-end-line="154" />
+              <caret line="153" selection-start-line="153" selection-end-line="153" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -31,7 +275,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/convert_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
+            <state relative-caret-position="954">
               <caret line="53" column="72" selection-start-line="53" selection-start-column="72" selection-end-line="53" selection-end-column="72" />
             </state>
           </provider>
@@ -46,16 +290,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/k_nearest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="939">
-              <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+            <state relative-caret-position="31">
+              <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/compared/dataSet1compared.csv">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -191,19 +440,19 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12021136" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17437252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32931727" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26773763" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26773763" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Floobits" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3266399" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -221,19 +470,6 @@
     <entry file="file://$PROJECT_DIR$/format.py" />
     <entry file="file://$PROJECT_DIR$/format_csv.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/test5.py" />
-    <entry file="file://$PROJECT_DIR$/compare_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="154" selection-start-line="154" selection-end-line="154" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automate.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/svm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -244,9 +480,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/compare_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/convert_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
+        <state relative-caret-position="954">
           <caret line="53" column="72" selection-start-line="53" selection-start-column="72" selection-end-line="53" selection-end-column="72" />
         </state>
       </provider>
@@ -258,15 +504,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/automate.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/k_nearest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="939">
-          <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+        <state relative-caret-position="31">
+          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compared/dataSet1compared.csv">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
