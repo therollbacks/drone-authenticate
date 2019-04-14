@@ -2,250 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96cc316c-9021-487d-bd69-4693aae2c5e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/compare_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/compare_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convert_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/convert_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet10DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet10TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet11DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet11TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet12DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet12TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet13DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet13TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet14DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet14TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet15DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet15TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet16DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet16TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet17DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet17TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet18DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet18TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet19DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet19TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet1DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet1TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet20DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet20TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet21DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet21TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet22DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet22TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet23DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet23TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet24DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet24TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet25DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet25TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet26DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet26TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet27DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet27TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet28DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet28TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet29DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet29TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet2DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet2TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet30DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet30TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet31DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet31TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet32DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet32TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet33DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet33TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet34DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet34TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet35DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet35TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet36DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet36TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet37DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet37TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet38DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet38TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet39DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet39TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet3DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet3TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet40DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet40TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet41DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet41TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet42DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet42TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet43DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet43TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet44DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet44TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet45DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet45TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet46DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet46TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet47DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet47TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet48DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet48TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet49DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet49TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet4DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet4TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet50DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet50TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet51DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet51TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet52DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet52TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet53DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet53TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet54DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet54TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet55DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet55TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet56DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet56TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet57DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet57TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet58DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet58TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet59DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet59TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet5DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet5TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet60DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet60TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet6DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet6TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet7DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet7TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet8DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet8TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet9DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/dataSet9TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet10DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet10TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet11DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet11TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet12DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet12TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet13DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet13TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet14DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet14TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet15DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet15TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet16DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet16TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet17DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet17TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet18DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet18TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet19DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet19TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet1DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet1TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet20DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet20TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet21DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet21TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet22DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet22TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet23DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet23TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet24DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet24TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet25DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet25TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet26DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet26TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet27DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet27TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet28DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet28TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet29DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet29TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet2DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet2TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet30DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet30TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet31DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet31TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet32DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet32TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet33DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet33TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet34DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet34TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet35DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet35TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet36DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet36TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet37DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet37TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet38DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet38TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet39DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet39TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet3DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet3TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet40DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet40TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet41DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet41TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet42DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet42TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet43DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet43TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet44DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet44TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet45DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet45TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet46DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet46TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet47DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet47TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet48DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet48TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet49DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet49TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet4DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet4TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet50DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet50TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet51DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet51TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet52DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet52TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet53DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet53TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet54DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet54TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet55DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet55TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet56DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet56TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet57DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet57TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet58DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet58TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet59DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet59TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet5DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet5TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet60DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet60TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet6DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet6TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet7DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet7TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet8DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet8TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet9DT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatted/formattedSet9TP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/k_nearest.py" beforeDir="false" afterPath="$PROJECT_DIR$/k_nearest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_convert_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_convert_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Set9DT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/convert_csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newSet9DT.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -267,20 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/convert_csv.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/new_convert_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="216">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -378,16 +128,6 @@
               <item name="drone-authenticate" type="462c0819:PsiDirectoryNode" />
               <item name="compared" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="drone-authenticate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone-authenticate" type="462c0819:PsiDirectoryNode" />
-              <item name="formatted" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drone-authenticate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone-authenticate" type="462c0819:PsiDirectoryNode" />
-              <item name="unformatted" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -462,7 +202,7 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17437252" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17437252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -474,7 +214,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Floobits" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3266399" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3266399" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -557,8 +297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new_convert_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="216">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
