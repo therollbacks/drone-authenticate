@@ -51,18 +51,21 @@ class Format:
         with open('./formatted/' + new_file_name, newline='') as f:
             r = csv.reader(f)
             data = [line for line in r]
-            print(data)
 
-        with open('./formatted/' + new_file_name, 'w', newline='') as f:
-            w = csv.writer(f)
-            w.writerow(['Start', 'TimeUS', 'Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng', 'Q1', 'Q2', 'Q3', 'Q4'])
-            w.writerows(data)
+        A = pd.read_csv(('./formatted/' + new_file_name), names=headers)
+        A.to_csv(('./formatted/' + "new" + new_file_name), index=False)
+        A_new = pd.read_csv('./formatted/' + "new" + new_file_name)
 
-        f = pd.read_csv('./formatted/' + new_file_name)
-        keep_col = ['Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng']
-        new_f = f[keep_col]
-        newer_file_name = "formatted" + filename
-        new_f.to_csv('./formatted/' + newer_file_name, index=False)
+        data = A_new.drop(["TimeUS", "Q1", "Q2", "Q3", "Q4"], axis=1)
+        data['Roll'] = data['Roll'].astype(float)
+        data['Pitch'] = data['Pitch'].astype(float)
+        data['Yaw'] = data['Yaw'].astype(float)
+        data['Alt'] = data['Alt'].astype(float)
+        data['Lat'] = data['Lat'].astype(float)
+        data['Lng'] = data['Lng'].astype(float)
+        data.to_csv(('./formatted/' + "clean" + new_file_name), index=False)
+        os.remove('./formatted/' + new_file_name)
+        os.remove('./formatted/' + "new" + new_file_name)
 
 
 def main():
@@ -84,6 +87,10 @@ def main():
 
         obj.open_file_w_headers(filedir, numFiles[count])
         count = count + 1
+
+    # to confirm cleandata csv datatypes, uncomment
+    # A = pd.read_csv(('./formatted/cleandataSet1DT.csv'))
+    # print(A.dtypes)
 
 
 if __name__ == '__main__': main()

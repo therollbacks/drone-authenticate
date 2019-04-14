@@ -62,7 +62,7 @@ def main():
     trainingSet = []
     testSet = []
     split = 0.67
-    loadDataset('./compared/dataSet1compared.csv', split, trainingSet, testSet)
+    loadDataset('./compared/Set1comparedForTesting.csv', split, trainingSet, testSet)
     print(('Train set: ' + repr(len(trainingSet))))
     print(('Test set: ' + repr(len(testSet))))
     # generate predictions

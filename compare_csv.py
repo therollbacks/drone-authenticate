@@ -50,7 +50,7 @@ class TestCsv:
         with open(goodfile) as f:
             # print("goodfile is ", goodfile)
             next(f)
-            for line in csv.reader(f):
+            for line in csv.reader(f, quoting=csv.QUOTE_NONNUMERIC):
                 if line[4] not in self.true_lat_list:
                     self.true_lat_list.append(float(line[4]))
                 if line[5] not in self.true_lng_list:
@@ -73,7 +73,7 @@ class TestCsv:
         compared_file_list = []
         with open(badfile) as f:
             next(f)
-            for line in csv.reader(f):
+            for line in csv.reader(f, quoting=csv.QUOTE_NONNUMERIC):
                 current_line = line
                 if float(line[4]) < self.lat_min or float(line[4]) > self.lat_max:
                     false_counter += 1
