@@ -7,14 +7,11 @@ import os
 import pandas as pd
 from sklearn.svm import SVR
 
-svr = SVR(kernel="linear", gamma="auto")
-
 headers = ['TimeUS', 'Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng', 'Q1', 'Q2', 'Q3', 'Q4']
-
 
 class Format:
     def __init__(self):
-        print("formatiing...")
+        print("formating...")
 
     def open_file_w_headers(self, filedir, filename):
         counter = 0
@@ -72,15 +69,12 @@ def main():
     obj = Format()
 
     pathName = os.getcwd()
-
     numFiles = []
     fileNames = os.listdir('unformatted')
 
     for fileNames in fileNames:
         if fileNames.endswith(".csv"):
             numFiles.append(fileNames)
-    print(numFiles)
-
     count = 0
     for i in numFiles:
         filedir = (os.path.join(pathName, 'unformatted', i))
