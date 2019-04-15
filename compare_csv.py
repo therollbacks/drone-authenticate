@@ -51,10 +51,16 @@ class TestCsv:
             # print("goodfile is ", goodfile)
             next(f)
             for line in csv.reader(f, quoting=csv.QUOTE_NONNUMERIC):
-                if line[4] not in self.true_lat_list:
-                    self.true_lat_list.append(float(line[4]))
-                if line[5] not in self.true_lng_list:
-                    self.true_lng_list.append(float(line[5]))
+                true_lat = round(line[4],5 )
+                true_lng = round(line[5],5 )
+                true_yaw = round(line[2],5 )
+
+                if true_lat not in self.true_lat_list:
+                    self.true_lat_list.append(true_lat)
+                if true_lng not in self.true_lng_list:
+                    self.true_lng_list.append(true_lng)
+                if true_yaw not in self.true_yaw_list:
+                    self.true_yaw_list.append(true_yaw)
 
         error_range = 0.0000000
         self.lat_min = min(self.true_lat_list) - error_range
@@ -73,16 +79,16 @@ class TestCsv:
         compared_file_list = []
         with open(badfile) as f:
             next(f)
+
             for line in csv.reader(f, quoting=csv.QUOTE_NONNUMERIC):
                 current_line = line
-                if float(line[4]) < self.lat_min or float(line[4]) > self.lat_max:
-                    false_counter += 1
-                    current_line.append(1)
-                    compared_file_list.append(current_line)
-                elif float(line[5]) < self.lng_min or float(line[5]) > self.lng_max:
-                    false_counter += 1
-                    current_line.append(1)
-                    compared_file_list.append(current_line)
+                bad_lat = round(line[4], 5)
+                bad_lng = round(line[5], 5)
+                bad_yaw = round(line[2], 5)
+                if bad_lat not in self.true_lat_list or bad_lng not in self.true_lng_list:
+                        false_counter += 1
+                        current_line.append(1)
+                        compared_file_list.append(current_line)
                 else:
                     current_line.append(0)
                     compared_file_list.append(current_line)

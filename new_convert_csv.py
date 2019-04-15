@@ -41,17 +41,17 @@ class Format:
                 emp_list_inner = []
         new_file_name = "data" + filename
 
-        with open('./formatted/' + new_file_name, 'w', newline='') as outfile:
+        with open('./formatted_auto/' + new_file_name, 'w', newline='') as outfile:
             wr = csv.writer(outfile)
             wr.writerows(emp_list)
 
-        with open('./formatted/' + new_file_name, newline='') as f:
+        with open('./formatted_auto/' + new_file_name, newline='') as f:
             r = csv.reader(f)
             data = [line for line in r]
 
-        A = pd.read_csv(('./formatted/' + new_file_name), names=headers)
-        A.to_csv(('./formatted/' + "new" + new_file_name), index=False)
-        A_new = pd.read_csv('./formatted/' + "new" + new_file_name)
+        A = pd.read_csv(('./formatted_auto/' + new_file_name), names=headers)
+        A.to_csv(('./formatted_auto/' + "new" + new_file_name), index=False)
+        A_new = pd.read_csv('./formatted_auto/' + "new" + new_file_name)
 
         data = A_new.drop(["TimeUS", "Q1", "Q2", "Q3", "Q4"], axis=1)
         data['Roll'] = data['Roll'].astype(float)
@@ -60,9 +60,9 @@ class Format:
         data['Alt'] = data['Alt'].astype(float)
         data['Lat'] = data['Lat'].astype(float)
         data['Lng'] = data['Lng'].astype(float)
-        data.to_csv(('./formatted/' + "clean" + new_file_name), index=False)
-        os.remove('./formatted/' + new_file_name)
-        os.remove('./formatted/' + "new" + new_file_name)
+        data.to_csv(('./formatted_auto/' + "clean" + new_file_name), index=False)
+        os.remove('./formatted_auto/' + new_file_name)
+        os.remove('./formatted_auto/' + "new" + new_file_name)
 
 
 def main():
@@ -70,14 +70,14 @@ def main():
 
     pathName = os.getcwd()
     numFiles = []
-    fileNames = os.listdir('unformatted')
+    fileNames = os.listdir('unformatted_auto')
 
     for fileNames in fileNames:
         if fileNames.endswith(".csv"):
             numFiles.append(fileNames)
     count = 0
     for i in numFiles:
-        filedir = (os.path.join(pathName, 'unformatted', i))
+        filedir = (os.path.join(pathName, 'unformatted_auto', i))
 
         obj.open_file_w_headers(filedir, numFiles[count])
         count = count + 1

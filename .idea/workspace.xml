@@ -2,6 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96cc316c-9021-487d-bd69-4693aae2c5e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/all_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compare_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/compare_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set10compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set10compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set11compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set11compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set12compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set12compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set13compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set13compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set14compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set14compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set15compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set15compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set16compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set16compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set17compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set17compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set18compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set18compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set19compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set19compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set1compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set1compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set20compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set20compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set21compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set21compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set22compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set22compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set23compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set23compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set24compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set24compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set25compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set25compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set26compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set26compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set27compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set27compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set28compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set28compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set29compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set29compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set2compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set2compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set30compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set30compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set31compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set31compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set32compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set32compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set33compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set33compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set34compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set34compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set35compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set35compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set36compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set36compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set37compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set37compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set38compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set38compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set39compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set39compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set3compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set3compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set40compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set40compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set41compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set41compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set42compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set42compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set43compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set43compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set44compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set44compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set45compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set45compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set46compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set46compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set47compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set47compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set48compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set48compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set49compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set49compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set4compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set4compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set50compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set50compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set51compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set51compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set52compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set52compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set53compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set53compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set54compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set54compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set55compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set55compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set56compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set56compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set57compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set57compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set58compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set58compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set59compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set59compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set5compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set5compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set60compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set60compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set6compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set6compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set7compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set7compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set8compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set8compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared/Set9compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared/Set9compared.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_convert_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_convert_csv.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +78,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compare_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1476">
-              <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+            <state relative-caret-position="36">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -27,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/new_convert_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+            <state relative-caret-position="417">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
@@ -45,7 +117,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/k_nearest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
+            <state relative-caret-position="1098">
               <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -57,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compared/Set1compared.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4482">
-              <caret line="249" column="56" selection-start-line="249" selection-start-column="56" selection-end-line="249" selection-end-column="56" />
+            <state relative-caret-position="4302">
+              <caret line="239" column="55" selection-start-line="239" selection-start-column="55" selection-end-line="239" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -96,13 +168,13 @@
         <option value="$PROJECT_DIR$/svm.py" />
         <option value="$PROJECT_DIR$/k_nearest.py" />
         <option value="$PROJECT_DIR$/compared/Set1comparedForTesting.csv" />
-        <option value="$PROJECT_DIR$/compare_csv.py" />
         <option value="$PROJECT_DIR$/convert_csv.py" />
+        <option value="$PROJECT_DIR$/compare_csv.py" />
         <option value="$PROJECT_DIR$/new_convert_csv.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1090" />
@@ -120,11 +192,6 @@
             <path>
               <item name="drone-authenticate" type="b2602c69:ProjectViewProjectNode" />
               <item name="drone-authenticate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drone-authenticate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone-authenticate" type="462c0819:PsiDirectoryNode" />
-              <item name="compared" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,7 +267,7 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17437252" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17437252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -212,7 +279,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Floobits" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3266399" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23293173" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -230,13 +297,16 @@
     <entry file="file://$PROJECT_DIR$/format.py" />
     <entry file="file://$PROJECT_DIR$/format_csv.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/test5.py" />
-    <entry file="file://$PROJECT_DIR$/svm.py">
+    <entry file="file://$PROJECT_DIR$/compared/dataSet1compared.csv" />
+    <entry file="file://$PROJECT_DIR$/compared/Set1comparedForTesting.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formatted/dataSet1DT.csv" />
+    <entry file="file://$PROJECT_DIR$/convert_csv.py" />
+    <entry file="file://$PROJECT_DIR$/compare_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -247,25 +317,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automate.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compared/Set1compared.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4482">
-          <caret line="249" column="56" selection-start-line="249" selection-start-column="56" selection-end-line="249" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compared/dataSet1compared.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compared/Set1comparedForTesting.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/k_nearest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
+        <state relative-caret-position="1098">
           <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -273,30 +327,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/formatted/dataSet1DT.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compare_csv.py">
+    <entry file="file://$PROJECT_DIR$/compared/Set1compared.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1476">
-          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="4302">
+          <caret line="239" column="55" selection-start-line="239" selection-start-column="55" selection-end-line="239" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/convert_csv.py">
+    <entry file="file://$PROJECT_DIR$/automate.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="183">
+          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_convert_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+        <state relative-caret-position="417">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
