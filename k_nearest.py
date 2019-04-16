@@ -20,7 +20,7 @@ def loadDataset(filename, split, trainingSet=[], testSet=[]):
 def euclideanDistance(instance1, instance2, length):
     distance = 0
     for x in range(length):
-        distance += pow((instance1[x] - instance2[x]), 2)
+        distance += pow((float(instance1[x]) - float(instance2[x])), 2)
     return math.sqrt(distance)
 
 
@@ -45,7 +45,7 @@ def getResponse(neighbors):
             classVotes[response] += 1
         else:
             classVotes[response] = 1
-    sortedVotes = sorted(classVotes.iteritems(), key=operator.itemgetter(1), reverse=True)
+    sortedVotes = sorted(classVotes.items(), key=operator.itemgetter(1), reverse=True)
     return sortedVotes[0][0]
 
 
@@ -62,7 +62,7 @@ def main():
     trainingSet = []
     testSet = []
     split = 0.67
-    loadDataset('./compared/Set1comparedForTesting.csv', split, trainingSet, testSet)
+    loadDataset('./compared_auto/cleandatagp2_001comparedtest.csv', split, trainingSet, testSet)
     print(('Train set: ' + repr(len(trainingSet))))
     print(('Test set: ' + repr(len(testSet))))
     # generate predictions
