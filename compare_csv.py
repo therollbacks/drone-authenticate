@@ -54,9 +54,9 @@ class TestCsv:
 
             next(f)
             for line in csv.reader(f):
-                true_lat = format(float(line[4]), '.4f')
-                true_lng = format(float(line[5]), '.4f')
-                true_yaw = format(float(line[2]), '.4f')
+                true_lat = format(float(line[4]), '.6f')
+                true_lng = format(float(line[5]), '.6f')
+                true_yaw = format(float(line[2]), '.6f')
 
                 if true_lat not in self.true_lat_list:
                     self.true_lat_list.append(true_lat)
@@ -85,9 +85,9 @@ class TestCsv:
 
             for line in csv.reader(f):
                 current_line = line
-                bad_lat = format(float(line[4]), '.4f')
-                bad_lng = format(float(line[5]), '.4f')
-                bad_yaw = format(float(line[2]), '.4f')
+                bad_lat = format(float(line[4]), '.6f')
+                bad_lng = format(float(line[5]), '.6f')
+                bad_yaw = format(float(line[2]), '.6f')
                 if bad_lat not in self.true_lat_list or bad_lng not in self.true_lng_list:
                     if bad_yaw not in self.true_yaw_list:
                         false_counter += 1
