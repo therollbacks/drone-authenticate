@@ -2,158 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96cc316c-9021-487d-bd69-4693aae2c5e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compare_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/compare_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_001compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_001compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_002compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_002compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_003compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_003compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_004compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_004compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_005compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_005compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_006compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_006compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_007compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_007compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_008compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_008compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_009compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_009compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_010compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_010compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_011compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_011compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_012compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_012compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_013compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_013compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_014compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_014compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_015compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_015compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_016compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_016compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_017compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_017compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_018compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_018compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_019compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_019compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_020compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_020compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_021compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_021compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_022compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_022compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_023compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_023compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_024compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_024compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_025compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_025compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_026compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_026compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_027compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_027compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_028compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_028compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_029compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_029compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_030compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_030compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_031compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_031compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_032compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_032compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_033compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_033compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_034compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_034compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_035compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_035compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_036compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_036compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_037compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_037compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_038compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_038compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_039compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_039compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_040compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_040compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_041compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_041compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_042compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_042compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_043compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_043compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_044compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_044compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_045compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_045compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_046compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_046compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_047compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_047compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_048compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_048compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_049compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_049compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp2_050compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp2_050compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_001compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_001compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_002compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_002compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_003compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_003compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_004compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_004compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_005compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_005compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_006compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_006compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_007compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_007compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_008compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_008compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_009compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_009compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_010compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_010compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_011compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_011compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_012compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_012compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_013compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_013compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_014compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_014compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_015compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_015compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_016compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_016compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_017compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_017compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_018compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_018compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_019compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_019compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_020compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_020compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_021compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_021compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_022compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_022compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_023compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_023compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_024compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_024compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_025compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_025compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_026compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_026compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_027compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_027compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_028compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_028compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_029compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_029compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_030compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_030compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_031compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_031compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_032compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_032compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_033compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_033compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_034compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_034compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_035compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_035compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_036compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_036compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_037compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_037compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_038compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_038compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_039compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_039compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_040compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_040compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_041compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_041compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_042compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_042compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_043compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_043compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_044compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_044compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_045compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_045compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_046compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_046compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_047compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_047compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_048compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_048compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_049compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_049compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp3_050compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp3_050compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_001compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_001compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_002compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_002compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_003compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_003compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_004compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_004compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_005compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_005compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_006compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_006compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_007compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_007compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_008compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_008compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_009compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_009compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_010compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_010compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_011compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_011compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_012compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_012compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_013compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_013compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_014compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_014compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_015compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_015compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_016compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_016compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_017compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_017compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_018compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_018compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_019compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_019compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_020compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_020compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_021compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_021compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_022compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_022compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_023compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_023compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_024compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_024compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_025compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_025compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_026compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_026compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_027compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_027compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_028compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_028compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_029compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_029compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_030compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_030compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_031compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_031compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_032compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_032compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_033compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_033compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_034compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_034compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_035compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_035compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_036compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_036compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_037compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_037compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_038compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_038compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_039compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_039compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_040compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_040compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_041compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_041compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_042compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_042compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_043compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_043compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_044compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_044compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_045compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_045compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_046compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_046compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_047compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_047compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_048compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_048compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_049compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_049compared.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compared_auto/cleandatagp4_050compared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/compared_auto/cleandatagp4_050compared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared_auto/ndatagp2_0compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared_auto/ndatagp3_0compared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compared_auto/ndatagp4_0compared.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/svm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compare_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="110" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="-791">
+              <caret line="112" column="7" selection-start-line="112" selection-start-column="7" selection-end-line="112" selection-end-column="7" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -179,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/svm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="137" column="50" selection-start-line="137" selection-start-column="50" selection-end-line="137" selection-end-column="50" />
+            <state relative-caret-position="397">
+              <caret line="237" column="13" lean-forward="true" selection-start-line="237" selection-end-line="238" />
               <folding>
                 <element signature="e#4046#4065#0" expanded="true" />
               </folding>
@@ -188,14 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/test5.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="18">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -203,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_convert_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="361">
+              <caret line="89" column="18" lean-forward="true" selection-start-line="89" selection-end-line="90" />
             </state>
           </provider>
         </entry>
@@ -212,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simulate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            <state relative-caret-position="234">
+              <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -221,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/k_nearest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1098">
+            <state relative-caret-position="1152">
               <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -266,15 +117,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="E:/Downloads/test3.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/format.py" />
         <option value="$PROJECT_DIR$/format_csv.py" />
         <option value="$PROJECT_DIR$/k_nearest.py" />
         <option value="$PROJECT_DIR$/compared/Set1comparedForTesting.csv" />
         <option value="$PROJECT_DIR$/convert_csv.py" />
         <option value="$PROJECT_DIR$/new_convert_csv.py" />
-        <option value="$PROJECT_DIR$/svm.py" />
         <option value="$PROJECT_DIR$/compare_csv.py" />
+        <option value="$PROJECT_DIR$/svm.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -289,7 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,15 +147,11 @@
               <item name="drone-authenticate" type="b2602c69:ProjectViewProjectNode" />
               <item name="drone-authenticate" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="drone-authenticate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone-authenticate" type="462c0819:PsiDirectoryNode" />
-              <item name="compared_auto" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.compare_csv">
+  <component name="RunManager" selected="Python.main">
     <configuration name="compare_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -374,8 +220,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.compare_csv" />
         <item itemvalue="Python.k_nearest" />
       </list>
@@ -433,23 +301,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/formatted/dataSet1DT.csv" />
     <entry file="file://$PROJECT_DIR$/convert_csv.py" />
-    <entry file="file://$PROJECT_DIR$/new_convert_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/k_nearest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1098">
-          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/compared/Set1compared.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4302">
@@ -460,10 +311,13 @@
     <entry file="file://$PROJECT_DIR$/automate.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/simulate.py">
+    <entry file="file://$PROJECT_DIR$/k_nearest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        <state relative-caret-position="1152">
+          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -477,23 +331,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/simulate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-791">
+          <caret line="112" column="7" selection-start-line="112" selection-start-column="7" selection-end-line="112" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_convert_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="89" column="18" lean-forward="true" selection-start-line="89" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/svm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="137" column="50" selection-start-line="137" selection-start-column="50" selection-end-line="137" selection-end-column="50" />
+        <state relative-caret-position="397">
+          <caret line="237" column="13" lean-forward="true" selection-start-line="237" selection-end-line="238" />
           <folding>
             <element signature="e#4046#4065#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compare_csv.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
