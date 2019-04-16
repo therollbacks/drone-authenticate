@@ -3,6 +3,7 @@ from matplotlib import style
 import csv
 from sklearn.svm import SVR
 from numpy import linspace
+import math
 
 style.use("ggplot")
 
@@ -48,12 +49,14 @@ class TestCsv:
         self.lng_max = 0
 
         with open(goodfile) as f:
-            # print("goodfile is ", goodfile)
+            print("goodfile is ", goodfile)
+            print("badfile is ", badfile)
+
             next(f)
-            for line in csv.reader(f, quoting=csv.QUOTE_NONNUMERIC):
-                true_lat = round(line[4],5 )
-                true_lng = round(line[5],5 )
-                true_yaw = round(line[2],5 )
+            for line in csv.reader(f):
+                true_lat = format(float(line[4]), '.4f')
+                true_lng = format(float(line[5]), '.4f')
+                true_yaw = format(float(line[2]), '.4f')
 
                 if true_lat not in self.true_lat_list:
                     self.true_lat_list.append(true_lat)
@@ -62,15 +65,15 @@ class TestCsv:
                 if true_yaw not in self.true_yaw_list:
                     self.true_yaw_list.append(true_yaw)
 
-        error_range = 0.0000000
-        self.lat_min = min(self.true_lat_list) - error_range
-        self.lat_max = max(self.true_lat_list) + error_range
-        self.lng_min = min(self.true_lng_list) - error_range
-        self.lng_max = max(self.true_lng_list) + error_range
+        # error_range = 0.0000000
+        # self.lat_min = min(self.true_lat_list) - error_range
+        # self.lat_max = max(self.true_lat_list) + error_range
+        # self.lng_min = min(self.true_lng_list) - error_range
+        # self.lng_max = max(self.true_lng_list) + error_range
 
         # print(self.lat_min, self.lat_max)
         # print(self.lng_min, self.lng_max)
-
+        print("true lat list is ", self.true_lat_list)
         self.open_file_w_headers_second(badfile, justname)
 
     # detour
@@ -80,12 +83,13 @@ class TestCsv:
         with open(badfile) as f:
             next(f)
 
-            for line in csv.reader(f, quoting=csv.QUOTE_NONNUMERIC):
+            for line in csv.reader(f):
                 current_line = line
-                bad_lat = round(line[4], 5)
-                bad_lng = round(line[5], 5)
-                bad_yaw = round(line[2], 5)
+                bad_lat = format(float(line[4]), '.4f')
+                bad_lng = format(float(line[5]), '.4f')
+                bad_yaw = format(float(line[2]), '.4f')
                 if bad_lat not in self.true_lat_list or bad_lng not in self.true_lng_list:
+                    if bad_yaw not in self.true_yaw_list:
                         false_counter += 1
                         current_line.append(1)
                         compared_file_list.append(current_line)
@@ -94,10 +98,10 @@ class TestCsv:
                     compared_file_list.append(current_line)
         f.close()
 
-        print("false count: ",false_counter)
-        print(justname)
+        # print("false count: " + false_counter)
+        # print("just name is " +  justname)
 
-        compared_file_name = './compared/' + justname[21:] + 'compared.csv'
+        compared_file_name = './compared_auto/' + justname[17:] + 'compared.csv'
         # print(compared_file_name)
         with open(compared_file_name, 'w', newline='') as openFile:
             # print('making compare file')
@@ -128,35 +132,44 @@ def main():
 
     goodFiles = []
     badFiles = []
-    fileNames = os.listdir("./formatted")
-    print(fileNames)
+    fileNames = os.listdir("./formatted_auto")
+    # print(fileNames)
 
     for fileName in fileNames:
-        if fileName.endswith("TP.csv"):
-            goodFiles.append("./formatted/" + fileName)
-        if fileName.endswith("DT.csv"):
-            badFiles.append("./formatted/" + fileName)
+        if ("dp") in fileName:
+            # print('filename is '+ fileName)
+            badFiles.append("./formatted_auto/" + fileName)
+
+        elif ("gp") in fileName:
+            # print('filename is '+ fileName)
+            goodFiles.append("./formatted_auto/" + fileName)
+
+
+        #
+        # if fileName.endswith("TP.csv"):
+        #     goodFiles.append("./formatted/" + fileName)
+        # if fileName.endswith("DT.csv"):
+        #     badFiles.append("./formatted/" + fileName)
 
     goodFiles.sort()
     badFiles.sort()
 
     count = 0
     for i in range(0, len(goodFiles)):
-        print(len(goodFiles))
+        # print(len(goodFiles))
         good_data_file_name = goodFiles[i]
         bad_data_file_name = badFiles[i]
-        print(good_data_file_name, bad_data_file_name)
-        if good_data_file_name[:-6] == bad_data_file_name[:-6]:
-            print("checked ", good_data_file_name[:-6])
-            obj.open_file_w_headers(goodFiles[i], badFiles[i], good_data_file_name[:-6])
+        if good_data_file_name[28:] == bad_data_file_name[28:]:
+            print("good_data_file_name is ", good_data_file_name[28:], "bad_data_file_name ", bad_data_file_name[28:])
+            obj.open_file_w_headers(goodFiles[i], badFiles[i], good_data_file_name[:-4])
             count = count + 1
 
-    with open("all_data.csv", 'w', newline='') as openFile:
-        print('making final file')
-        writer = csv.writer(openFile)
-        writer.writerow(first_line)
-        for row in full_data:
-            writer.writerow(row)
+    # with open("all_data.csv", 'w', newline='') as openFile:
+    #     print('making final file')
+    #     writer = csv.writer(openFile)
+    #     writer.writerow(first_line)
+    #     for row in full_data:
+    #         writer.writerow(row)
 
 
 if __name__ == '__main__': main()
