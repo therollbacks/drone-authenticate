@@ -135,7 +135,7 @@ import pandas as pd
 import numpy as np
 from sklearn import svm
 
-cc = pd.read_csv("./compared_auto/cleandatagp2_001compared.csv")
+cc = pd.read_csv("./compared_auto/cleandatagp3_010compared.csv")
 
 
 # .loc primarily label based. used to access a column data or row
@@ -146,11 +146,11 @@ ano_obs = cc.loc[cc.Category == 1]
 # test observations/features: X_test
 # test_labels: Y_test
 
-train_feature = nor_obs.loc[0:900, :]
+train_feature = nor_obs.loc[0:30, :]
 train_feature = train_feature.drop('Category', 1)
 
 # Y_1 is all the "category" value after and including row 300
-Y_1 = nor_obs.loc[900:, 'Category']
+Y_1 = nor_obs.loc[30:, 'Category']
 
 # Y_2 is all the rows that have category ==1
 Y_2 = ano_obs['Category']
@@ -158,7 +158,7 @@ Y_2 = ano_obs['Category']
 # Creatng test observations/features
 
 # from 200000 till last row, drop category == 1
-X_test_1 = nor_obs.loc[900:, :].drop('Category', 1)
+X_test_1 = nor_obs.loc[30:, :].drop('Category', 1)
 
 # x test 2 drops all the rows where category == 1
 X_test_2 = ano_obs.drop('Category', 1)

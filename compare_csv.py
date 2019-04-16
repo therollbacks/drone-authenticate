@@ -54,8 +54,10 @@ class TestCsv:
 
             next(f)
             for line in csv.reader(f):
-                true_lat = format(float(line[4]), '.6f')
-                true_lng = format(float(line[5]), '.6f')
+                true_lat = format(float(line[4]), '.5f')
+                true_lng = format(float(line[5]), '.5f')
+                true_roll = format(float(line[0]), '.1f')
+                true_pitch = format(float(line[1]), '.1f')
                 true_yaw = round(float(line[2]))
 
                 if true_lat not in self.true_lat_list:
@@ -64,6 +66,12 @@ class TestCsv:
                     self.true_lng_list.append(true_lng)
                 if true_yaw not in self.true_yaw_list:
                     self.true_yaw_list.append(true_yaw)
+
+                if true_roll not in self.true_roll_list:
+                    self.true_roll_list.append(true_roll)
+                if true_pitch not in self.true_pitch_list:
+                    self.true_pitch_list.append(true_pitch)
+
 
         # error_range = 0.0000000
         # self.lat_min = min(self.true_lat_list) - error_range
@@ -85,14 +93,28 @@ class TestCsv:
 
             for line in csv.reader(f):
                 current_line = line
-                bad_lat = format(float(line[4]), '.6f')
-                bad_lng = format(float(line[5]), '.6f')
+                bad_lat = format(float(line[4]), '.5f')
+                bad_lng = format(float(line[5]), '.5f')
                 bad_yaw = round(float(line[2]))
-                if bad_lat not in self.true_lat_list or  bad_yaw not in self.true_yaw_list:
-                    if bad_lng not in self.true_lng_list:
-                        false_counter += 1
-                        current_line.append(1)
-                        compared_file_list.append(current_line)
+
+                bad_roll = format(float(line[0]), '.1f')
+                bad_pitch = format(float(line[1]), '.1f')
+                if bad_lat not in self.true_lat_list:
+                    false_counter += 1
+                    current_line.append(1)
+                    compared_file_list.append(current_line)
+
+                elif bad_lng not in self.true_lng_list:
+                    false_counter += 1
+                    current_line.append(1)
+                    compared_file_list.append(current_line)
+
+                elif bad_roll not in self.true_roll_list:
+                    if bad_pitch not in self.true_pitch_list:
+                        if bad_yaw not in self.true_yaw_list:
+                            false_counter += 1
+                            current_line.append(1)
+                            compared_file_list.append(current_line)
                 else:
                     current_line.append(0)
                     compared_file_list.append(current_line)
