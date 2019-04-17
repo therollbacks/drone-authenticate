@@ -41,6 +41,8 @@ class TestCsv:
         self.true_roll_list = []
         self.true_pitch_list = []
         self.true_yaw_list = []
+        self.true_alt_list = []
+
         self.false_lat_list = []
         self.false_lng_list = []
         self.lat_min = 0
@@ -58,6 +60,7 @@ class TestCsv:
                 true_lng = format(float(line[5]), '.5f')
                 true_roll = format(float(line[0]), '.1f')
                 true_pitch = format(float(line[1]), '.1f')
+                true_alt = format(float(line[3]), '.1f')
                 true_yaw = round(float(line[2]))
 
                 if true_lat not in self.true_lat_list:
@@ -96,9 +99,9 @@ class TestCsv:
                 bad_lat = format(float(line[4]), '.5f')
                 bad_lng = format(float(line[5]), '.5f')
                 bad_yaw = round(float(line[2]))
-
                 bad_roll = format(float(line[0]), '.1f')
                 bad_pitch = format(float(line[1]), '.1f')
+
                 if bad_lat not in self.true_lat_list:
                     false_counter += 1
                     current_line.append(1)
@@ -112,9 +115,9 @@ class TestCsv:
                 elif bad_roll not in self.true_roll_list:
                     if bad_pitch not in self.true_pitch_list:
                         if bad_yaw not in self.true_yaw_list:
-                            false_counter += 1
-                            current_line.append(1)
-                            compared_file_list.append(current_line)
+                                false_counter += 1
+                                current_line.append(1)
+                                compared_file_list.append(current_line)
                 else:
                     current_line.append(0)
                     compared_file_list.append(current_line)
