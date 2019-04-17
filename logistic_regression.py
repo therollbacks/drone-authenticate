@@ -1,38 +1,17 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.optimize as opt
-
-import os, csv
-
 data_list = []
 
 class LogisticRegression:
 
     def __init__(self):
-        # with open('./compared_auto/cleandatagp2_009compared.csv') as f:
-        #     next(f)
-        #     for line in csv.reader(f):
-        #         data_list.append([float(line[4]), float(line[5]), float(line[6])])
-        # print(data_list[:5])
-        new_data = np.loadtxt('./compared_auto/cleandatagp2_009compared.csv', delimiter=",")
-        print(new_data[:5])
-        data = np.loadtxt('university_admission.txt', delimiter=",")
-        x = data[:, 0:2]
-        y = data[:, 2]
-        print('got here')
-        print(data[:5])
+        self.algorithm()
 
-
-        # fig, ax = plt.subplots()
-        # positives = np.where(y == 1)
-        # negatives = np.where(y == 0)
-        # ax.scatter(x[positives, 0], x[positives, 1], marker="+", c='green')
-        # ax.scatter(x[negatives, 0], x[negatives, 1], marker="x", c='red', linewidth=1)
-        # plt.title("University Admission", fontsize=16)
-        # plt.xlabel("exam 1 score", fontsize=14)
-        # plt.ylabel("exam 2 score", fontsize=14)
-        # plt.legend(["admitted", "not admitted"])
-        # plt.show()
+    def algorithm(self):
+        data = np.loadtxt('./compared_auto_backup/cleandatagp4_010compared.csv', delimiter=",", skiprows=1)
+        x = data[:, 4:6]
+        y = data[:, 6]
 
         X = np.ones(shape=(x.shape[0], x.shape[1] + 1))
         X[:, 1:] = x

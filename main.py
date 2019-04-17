@@ -58,5 +58,8 @@ class Main:
             accuracy = obj_k.getAccuracy(testSet, predictions)
             print('Accuracy: ' + repr(accuracy) + '%')
 
+    def log_reg_model(self):
+        print("wip")
+
 
 if __name__ == '__main__': Main()
