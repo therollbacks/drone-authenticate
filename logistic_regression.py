@@ -7,6 +7,7 @@ class LogisticRegression:
 
     def __init__(self):
         self.algorithm()
+        self.avg_acc_list = []
 
     def algorithm(self):
         data = np.loadtxt('./compared_auto_backup/cleandatagp4_010compared.csv', delimiter=",", skiprows=1)
@@ -25,6 +26,7 @@ class LogisticRegression:
 
         predictions = np.zeros(len(y))
         predictions[self.sigmoid(X @ theta) >= 0.5] = 1
+        self.avg_acc_list.append(np.mean(predictions == y) * 100)
         print("Training Accuracy =", str(np.mean(predictions == y) * 100) + "%")
 
     def sigmoid(self, z):
@@ -42,7 +44,8 @@ class LogisticRegression:
 
 def main():
     mydata = LogisticRegression()
-    print(mydata)
+    myavg = self.avg_acc_list
+    print("Avg: ",)
 
 if __name__ == '__main__':
     main()
