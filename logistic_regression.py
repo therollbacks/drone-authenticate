@@ -24,7 +24,7 @@ class LogisticRegression:
             X[:, 1:] = x
 
             initial_theta = np.zeros(X.shape[1])  # set initial model parameters to zero
-            theta = opt.fmin_cg(self.cost, initial_theta, self.cost_gradient, (X, y))
+            theta = opt.fmin_cg(self.cost, initial_theta,  self.cost_gradient, (X, y))
 
             # x_axis = np.array([min(X[:, 1]) - 2, max(X[:, 1]) + 2])
             # y_axis = (-1 / theta[2]) * (theta[1] * x_axis + theta[0])
@@ -32,9 +32,13 @@ class LogisticRegression:
 
             predictions = np.zeros(len(y))
             predictions[self.sigmoid(X @ theta) >= 0.5] = 1
-            avg_acc_list.append(np.mean(predictions == y) * 100)
+            predict = np.mean(predictions == y) * 100
+            # Skip error data points
+            if predict >= 5:
+                avg_acc_list.append(predict)
             # print("Training Accuracy =", str(np.mean(predictions == y) * 100) + "%")
         print("Average accuracy: ", sum(avg_acc_list) / len(avg_acc_list))
+        print("Amount of data sets used: ", len(avg_acc_list))
         print("Median accuracy: ", statistics.median(avg_acc_list))
 
     def sigmoid(self, z):
