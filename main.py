@@ -1,5 +1,6 @@
 from svm import SVM
 from k_nearest import kNearest
+from logistic_regression import LogisticRegression
 import os
 
 
@@ -10,7 +11,8 @@ class Main:
         self.pathName = os.getcwd()
         self.numFiles = []
         self.fileNames = os.listdir('compared_auto')
-        self.k_nearest_model()
+        # self.k_nearest_model()
+        self.log_reg_model()
 
     # def svm_model(self):
     #
@@ -59,7 +61,7 @@ class Main:
             print('Accuracy: ' + repr(accuracy) + '%')
 
     def log_reg_model(self):
-        print("wip")
+        LogisticRegression()
 
 
 if __name__ == '__main__': Main()
