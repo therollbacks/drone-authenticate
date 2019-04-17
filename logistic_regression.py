@@ -1,5 +1,5 @@
 import os
-
+import statistics
 import numpy as np
 import scipy.optimize as opt
 
@@ -35,6 +35,7 @@ class LogisticRegression:
             avg_acc_list.append(np.mean(predictions == y) * 100)
             # print("Training Accuracy =", str(np.mean(predictions == y) * 100) + "%")
         print("Average accuracy: ", sum(avg_acc_list) / len(avg_acc_list))
+        print("Median accuracy: ", statistics.median(avg_acc_list))
 
     def sigmoid(self, z):
         return 1 / (1 + np.exp(-z))
