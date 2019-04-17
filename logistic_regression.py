@@ -1,27 +1,28 @@
+import csv
+
 import numpy as np
-import matplotlib.pyplot as plt
 import scipy.optimize as opt
 
-import os, csv
-
 data_list = []
+
+
 
 class LogisticRegression:
 
     def __init__(self):
-        # with open('./compared_auto/cleandatagp2_009compared.csv') as f:
-        #     next(f)
-        #     for line in csv.reader(f):
-        #         data_list.append([float(line[4]), float(line[5]), float(line[6])])
-        # print(data_list[:5])
-        new_data = np.loadtxt('./compared_auto/cleandatagp2_009compared.csv', delimiter=",")
-        print(new_data[:5])
+        x_list = []
+        y_list = []
+        with open('./compared_auto/cleandatagp2_009compared.csv') as f:
+            next(f)
+            for line in csv.reader(f):
+                x_list = np.append(np.array([float(line[4]), float(line[5])]))
+                y_list = np.append(float(line[6]))
         data = np.loadtxt('university_admission.txt', delimiter=",")
-        x = data[:, 0:2]
-        y = data[:, 2]
+        print(type(data))
+        x = x_list
+        y = y_list
         print('got here')
-        print(data[:5])
-
+        print(x, y)
 
         # fig, ax = plt.subplots()
         # positives = np.where(y == 1)
@@ -61,9 +62,11 @@ class LogisticRegression:
         predictions = self.sigmoid(X @ theta)
         return X.transpose() @ (predictions - y) / len(y)
 
+
 def main():
     mydata = LogisticRegression()
     print(mydata)
+
 
 if __name__ == '__main__':
     main()
