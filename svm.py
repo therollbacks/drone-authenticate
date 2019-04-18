@@ -250,7 +250,8 @@ class SVM:
 
     def model(self):
 
-        cc = pd.read_csv("./compared_auto/cleandatagp2_033compared.csv")
+        cc = pd.read_csv("./compared_auto/" + self.filename)
+        #cc = pd.read_csv("./compared_auto/cleandatagp2_007compared.csv")
 
         # .loc primarily label based. used to access a column data or row
         nor_obs = cc.loc[cc.Category == 0]  # Data frame with normal observation
@@ -313,14 +314,20 @@ class SVM:
         # if not a fraud
         fraud_pred[fraud_pred['prediction']==1]=0
         # if a fraud
+
         fraud_pred[fraud_pred['prediction']==-1]=1
 
         # print(fraud_pred['prediction'].value_counts())
         # print(sum(fraud_pred['prediction'])/fraud_pred['prediction'].shape[0])
+        countt = 0
+        for i in Y_test['Category']:
+            if i == 1:
 
-
+                countt += 1
+        print('Number of ones in csv file:',countt)
 
         ##Performance check of the model
+
 
         TP = FN = FP = TN = 0
         for j in range(len(Y_test)):
@@ -329,9 +336,9 @@ class SVM:
             elif Y_test['Category'][j] == 0 and fraud_pred['prediction'][j] == -1:
                 FN = FN + 1
             elif Y_test['Category'][j] == 1 and fraud_pred['prediction'][j] == 1:
-                FP = FP + 1
-            else:
                 TN = TN + 1
+            else:
+                FP = FP + 1
         print(TP, FN, FP, TN)
 
         # Performance Matrix
