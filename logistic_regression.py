@@ -1,15 +1,7 @@
-import os
-import statistics
 import numpy as np
+import matplotlib.pyplot as plt
 import scipy.optimize as opt
 import matplotlib.pyplot as plt
-
-data_list = []
-avg_acc_list = []
-avg_acc_list2 = []
-avg_spec_list = []
-avg_sens_list = []
-file_list = os.listdir("./compared_auto_backup")
 
 
 class LogisticRegression:
@@ -90,20 +82,8 @@ class LogisticRegression:
         predictions = self.sigmoid(X @ theta)
         predictions[predictions == 1] = 0.999  # log(1)=0 causes division error during optimization
         error = -y * np.log(predictions) - (1 - y) * np.log(1 - predictions);
-
         return sum(error) / len(y)
 
     def cost_gradient(self, theta, X, y):
         predictions = self.sigmoid(X @ theta)
-
         return X.transpose() @ (predictions - y) / len(y)
-
-# def main():
-#     LogisticRegression()
-#     myavg = sum(avg_acc_list) / len(avg_acc_list)
-#     print("Avg: ", myavg)
-#     return myavg
-#
-#
-# if __name__ == '__main__':
-#     main()
