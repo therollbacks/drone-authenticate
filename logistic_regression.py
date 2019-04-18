@@ -37,12 +37,13 @@ class LogisticRegression:
             predictions = np.zeros(len(y))
             predictions[self.sigmoid(X @ theta) >= 0.5] = 1
             TP = FN = FP = TN = 0
+            print(len(y), len(predictions))
             for j in range(len(y)):
-                if y == 0 and predictions == 1:
+                if y[j] == 0 and predictions[j] == 1:
                     TP = TP + 1
-                elif y == 0 and predictions == -1:
+                elif y[j] == 0 and predictions[j] == -1:
                     FN = FN + 1
-                elif y == 1 and predictions == 1:
+                elif y[j] == 1 and predictions[j] == 1:
                     FP = FP + 1
                 else:
                     TN = TN + 1
@@ -53,9 +54,9 @@ class LogisticRegression:
             accuracy = (TP + TN) / (TP + FN + FP + TN)
             avg_acc_list2.append(accuracy)
             # print("accuracy:", accuracy)
-            sensitivity = TP / (TP + FN)
+            # sensitivity = TP / (TP + FN)
             # print(sensitivity)
-            avg_sens_list.append(sensitivity)
+            # avg_sens_list.append(sensitivity)
             specificity = TN / (TN + FP)
             avg_spec_list.append(specificity)
             predict = np.mean(predictions == y) * 100
@@ -67,7 +68,7 @@ class LogisticRegression:
         print("Average accuracy: ", sum(avg_acc_list) / len(avg_acc_list))
         print("Average accuracy2: ", sum(avg_acc_list2) / len(avg_acc_list2))
         print("Average specificity: ", sum(avg_spec_list) / len(avg_spec_list))
-        print("Average sensitivity: ", sum(avg_sens_list) / len(avg_sens_list))
+        # print("Average sensitivity: ", sum(avg_sens_list) / len(avg_sens_list))
         print("Median accuracy: ", statistics.median(avg_acc_list))
 
     def sigmoid(self, z):
