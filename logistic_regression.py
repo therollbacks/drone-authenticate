@@ -5,6 +5,9 @@ import scipy.optimize as opt
 
 data_list = []
 avg_acc_list = []
+avg_acc_list2 = []
+avg_spec_list = []
+avg_sens_list = []
 file_list = os.listdir("./compared_auto_backup")
 
 
@@ -14,6 +17,7 @@ class LogisticRegression:
         self.algorithm()
 
     def algorithm(self):
+        my_counter = 0
         # data = np.loadtxt('./compared_auto_backup/cleandatagp4_010compared.csv', delimiter=",", skiprows=1)
         for file in file_list:
             data = np.loadtxt('./compared_auto_backup/' + file, delimiter=",", skiprows=1)
@@ -32,13 +36,38 @@ class LogisticRegression:
 
             predictions = np.zeros(len(y))
             predictions[self.sigmoid(X @ theta) >= 0.5] = 1
+            TP = FN = FP = TN = 0
+            for j in range(len(y)):
+                if y == 0 and predictions == 1:
+                    TP = TP + 1
+                elif y == 0 and predictions == -1:
+                    FN = FN + 1
+                elif y == 1 and predictions == 1:
+                    FP = FP + 1
+                else:
+                    TN = TN + 1
+            # print(TP, FN, FP, TN)
+
+            # Performance Matrix
+
+            accuracy = (TP + TN) / (TP + FN + FP + TN)
+            avg_acc_list2.append(accuracy)
+            # print("accuracy:", accuracy)
+            sensitivity = TP / (TP + FN)
+            # print(sensitivity)
+            avg_sens_list.append(sensitivity)
+            specificity = TN / (TN + FP)
+            avg_spec_list.append(specificity)
             predict = np.mean(predictions == y) * 100
             # Skip error data points
             if predict >= 5:
                 avg_acc_list.append(predict)
+            else: my_counter += 1
             # print("Training Accuracy =", str(np.mean(predictions == y) * 100) + "%")
         print("Average accuracy: ", sum(avg_acc_list) / len(avg_acc_list))
-        print("Amount of data sets used: ", len(avg_acc_list))
+        print("Average accuracy2: ", sum(avg_acc_list2) / len(avg_acc_list2))
+        print("Average specificity: ", sum(avg_spec_list) / len(avg_spec_list))
+        print("Average sensitivity: ", sum(avg_sens_list) / len(avg_sens_list))
         print("Median accuracy: ", statistics.median(avg_acc_list))
 
     def sigmoid(self, z):
@@ -48,10 +77,12 @@ class LogisticRegression:
         predictions = self.sigmoid(X @ theta)
         predictions[predictions == 1] = 0.999  # log(1)=0 causes division error during optimization
         error = -y * np.log(predictions) - (1 - y) * np.log(1 - predictions);
+
         return sum(error) / len(y)
 
     def cost_gradient(self, theta, X, y):
         predictions = self.sigmoid(X @ theta)
+
         return X.transpose() @ (predictions - y) / len(y)
 
 # def main():
