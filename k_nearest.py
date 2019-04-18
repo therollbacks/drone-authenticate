@@ -2,6 +2,8 @@ import csv
 import random
 import math
 import operator
+from sklearn.metrics import precision_score
+from sklearn.metrics import recall_score
 
 
 class kNearest:
@@ -10,29 +12,30 @@ class kNearest:
 
         trainingSet = []
         testSet = []
-        split = 0.67
-        # self.loadDataset('./compared_auto/cleandatagp2_001comparedtest.csv', split, trainingSet, testSet)
-        # print(('Train set: ' + repr(len(trainingSet))))
-        # print(('Test set: ' + repr(len(testSet))))
-        # # generate predictions
-        # predictions = []
-        # k = 3
-        # for x in range(len(testSet)):
-        #     neighbors = self.getNeighbors(trainingSet, testSet[x], k)
-        #     result = self.getResponse(neighbors)
-        #     predictions.append(result)
-        #     print('> predicted=' + repr(result) + ', actual=' + repr(testSet[x][-1]))
-        # accuracy = self.getAccuracy(testSet, predictions)
-        # print('Accuracy: ' + repr(accuracy) + '%')
+        self.split = 0.67
+        self.loadDataset('cleandatagp2_001comparedtest.csv', self.split, trainingSet, testSet)
+        print(('Train set: ' + repr(len(trainingSet))))
+        print(('Test set: ' + repr(len(testSet))))
+        # generate predictions
+        predictions = []
+        k = 3
+        for x in range(len(testSet)):
+            neighbors = self.getNeighbors(trainingSet, testSet[x], k)
+            result = self.getResponse(neighbors)
+            predictions.append(result)
+            print('> predicted=' + repr(result) + ', actual=' + repr(testSet[x][-1]))
+        accuracy = self.getAccuracy(testSet, predictions)
+        print('Accuracy: ' + repr(accuracy) + '%')
 
     def loadDataset(self, filename, split, trainingSet=[], testSet=[]):
         with open(filename, 'r') as csvfile:
+            next(csvfile)
             lines = csv.reader(csvfile)
             dataset = list(lines)
             for x in range(len(dataset) - 1):
                 for y in range(4):
                     dataset[x][y] = float(dataset[x][y])
-                if random.random() < split:
+                if random.random() < self.split:
                     trainingSet.append(dataset[x])
                 else:
                     testSet.append(dataset[x])
@@ -68,8 +71,36 @@ class kNearest:
 
     def getAccuracy(self, testSet, predictions):
         correct = 0
+
+        # p_score = precision_score(testSet, predictions, average='binary')
+        # r_score = recall_score(testSet, predictions, average='binary')
+        #
+        # print("p score is ", p_score, " r_score is ", r_score)
         for x in range(len(testSet)):
             if testSet[x][-1] == predictions[x]:
                 correct += 1
+
+
+        TP = FN = FP = TN = 0
+        for j in range(len(testSet)):
+            if testSet[j][-1] == 0 and predictions['prediction'][j] == 1:
+                TP = TP + 1
+            elif testSet[j][-1] == 0 and predictions['prediction'][j] == -1:
+                FN = FN + 1
+            elif testSet[j][-1] == 1 and predictions['prediction'][j] == 1:
+                FP = FP + 1
+            else:
+                TN = TN + 1
+        print(TP, FN, FP, TN)
+
+        accuracy = (TP + TN) / (TP + FN + FP + TN)
+        print("accuracy:", accuracy)
+        sensitivity = TP / (TP + FN)
+        print('sensitivity: ', sensitivity)
+        specificity = TN / (TN + FP)
+        print('specifitiy: ', specificity)
         return (correct / float(len(testSet))) * 100.0
+
+
+if __name__ == '__main__': kNearest()
 
