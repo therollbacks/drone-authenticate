@@ -2,6 +2,7 @@ import os
 import statistics
 import numpy as np
 import scipy.optimize as opt
+import matplotlib.pyplot as plt
 
 data_list = []
 avg_acc_list = []
@@ -27,6 +28,17 @@ class LogisticRegression:
             X = np.ones(shape=(x.shape[0], x.shape[1] + 1))
             X[:, 1:] = x
 
+            # fig, ax = plt.subplots()
+            # positives = np.where(y == 1)
+            # negatives = np.where(y == 0)
+            # ax.scatter(x[positives, 0], x[positives, 1], marker="+", c='green')
+            # ax.scatter(x[negatives, 0], x[negatives, 1], marker="x", c='red', linewidth=1)
+            # plt.title("University Admission", fontsize=16)
+            # plt.xlabel("exam 1 score", fontsize=14)
+            # plt.ylabel("exam 2 score", fontsize=14)
+            # plt.legend(["admitted", "not admitted"])
+            # plt.show()
+
             initial_theta = np.zeros(X.shape[1])  # set initial model parameters to zero
             theta = opt.fmin_cg(self.cost, initial_theta,  self.cost_gradient, (X, y))
 
@@ -37,7 +49,7 @@ class LogisticRegression:
             predictions = np.zeros(len(y))
             predictions[self.sigmoid(X @ theta) >= 0.5] = 1
             TP = FN = FP = TN = 0
-            print(len(y), len(predictions))
+            # print(len(y), len(predictions))
             for j in range(len(y)):
                 if y[j] == 0 and predictions[j] == 1:
                     TP = TP + 1
