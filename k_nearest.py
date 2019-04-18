@@ -83,20 +83,24 @@ class kNearest:
 
         TP = FN = FP = TN = 0
         for j in range(len(testSet)):
-            if testSet[j][-1] == 0 and predictions['prediction'][j] == 1:
+            print('predictions j is ', predictions[j])
+            print('testset is ', testSet[j][-1])
+
+            if testSet[j][-1] == 0 and predictions[j] == 0:
                 TP = TP + 1
-            elif testSet[j][-1] == 0 and predictions['prediction'][j] == -1:
+            elif testSet[j][-1] == 0 and predictions[j] == 1:
                 FN = FN + 1
-            elif testSet[j][-1] == 1 and predictions['prediction'][j] == 1:
+            elif testSet[j][-1] == 1 and predictions[j] == 0:
                 FP = FP + 1
             else:
                 TN = TN + 1
+
         print(TP, FN, FP, TN)
 
         accuracy = (TP + TN) / (TP + FN + FP + TN)
         print("accuracy:", accuracy)
-        sensitivity = TP / (TP + FN)
-        print('sensitivity: ', sensitivity)
+        # sensitivity = TP / (TP + FN)
+        # print('sensitivity: ', sensitivity)
         specificity = TN / (TN + FP)
         print('specifitiy: ', specificity)
         return (correct / float(len(testSet))) * 100.0
