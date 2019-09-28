@@ -62,6 +62,9 @@ class Format:
         data['Pitch'] = data['Pitch'].astype(float)
         data['Index'] = data.index
 
+        data=data[['Index','Alt','Lat','Lat','Yaw','Roll','Pitch']]
+        data.head()
+
 
 
 
