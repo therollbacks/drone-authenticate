@@ -3,6 +3,8 @@ import json
 import os
 import pandas as pd
 from sklearn.svm import SVR
+import math
+import numpy as np
 
 headers = ['TimeUS', 'Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng', 'Q1', 'Q2', 'Q3', 'Q4']
 
@@ -51,22 +53,19 @@ class Format:
         A.to_csv(('./formatted_auto/' + "new" + new_file_name), index=False)
         A_new = pd.read_csv('./formatted_auto/' + "new" + new_file_name)
 
-        #convert yaw, roll pitch from radians to degree  Degree = radian * 180 / pi()
+        # convert yaw, roll pitch from radians to degree  Degree = radian * 180 / pi()
 
         data = A_new.drop(["TimeUS", "Q1", "Q2", "Q3", "Q4"], axis=1)
         data['Alt'] = data['Alt'].astype(float)
         data['Lat'] = data['Lat'].astype(float)
         data['Lng'] = data['Lng'].astype(float)
-        data['Yaw'] = data['Yaw'].astype(float)
-        data['Roll'] = data['Roll'].astype(float)
-        data['Pitch'] = data['Pitch'].astype(float)
+        data['Yaw(deg)'] = np.rad2deg(data['Yaw'].astype(float))
+        data['Roll(deg)'] = np.rad2deg(data['Roll'].astype(float))
+        data['Pitch(deg)'] = np.rad2deg(data['Pitch'].astype(float))
         data['Index'] = data.index
 
-        data=data[['Index','Alt','Lat','Lat','Yaw','Roll','Pitch']]
+        data = data[['Index', 'Alt', 'Lat', 'Lat', 'Yaw(deg)', 'Roll(deg)', 'Pitch(deg)']]
         data.head()
-
-
-
 
         data.to_csv(('./formatted_auto/' + "clean" + new_file_name), index=False)
         os.remove('./formatted_auto/' + new_file_name)
