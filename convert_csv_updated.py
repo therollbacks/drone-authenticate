@@ -62,6 +62,12 @@ class Format:
         data['Pitch'] = data['Pitch'].astype(float)
         data['Index'] = data.index
 
+        data=data[['Index','Alt','Lat','Lat','Yaw','Roll','Pitch']]
+        data.head()
+
+
+
+
         data.to_csv(('./formatted_auto/' + "clean" + new_file_name), index=False)
         os.remove('./formatted_auto/' + new_file_name)
         os.remove('./formatted_auto/' + "new" + new_file_name)
