@@ -1,6 +1,3 @@
-from matplotlib import style
-
-style.use("ggplot")
 import csv
 import json
 import os
@@ -8,6 +5,7 @@ import pandas as pd
 from sklearn.svm import SVR
 
 headers = ['TimeUS', 'Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng', 'Q1', 'Q2', 'Q3', 'Q4']
+
 
 class Format:
     def __init__(self):
@@ -53,6 +51,8 @@ class Format:
         A.to_csv(('./formatted_auto/' + "new" + new_file_name), index=False)
         A_new = pd.read_csv('./formatted_auto/' + "new" + new_file_name)
 
+        #convert yaw, roll pitch from radians to degree  Degree = radian * 180 / pi()
+
         data = A_new.drop(["TimeUS", "Q1", "Q2", "Q3", "Q4"], axis=1)
         data['Alt'] = data['Alt'].astype(float)
         data['Lat'] = data['Lat'].astype(float)
@@ -61,9 +61,6 @@ class Format:
         data['Roll'] = data['Roll'].astype(float)
         data['Pitch'] = data['Pitch'].astype(float)
         data['Index'] = data.index
-
-
-
 
         data.to_csv(('./formatted_auto/' + "clean" + new_file_name), index=False)
         os.remove('./formatted_auto/' + new_file_name)
@@ -80,8 +77,6 @@ class Format:
         #     for row in csv.DictReader(infile):
         #         # writes the reordered rows to the new file
         #         writer.writerow(row)
-
-
 
 
 def main():
