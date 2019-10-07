@@ -81,7 +81,9 @@ The conversion from BIN to csv is initially handled by a seperate program known 
 https://github.com/ArduPilot/pymavlink/tree/master/tools
 
 The BIN files generated from running the simulator get saved to the /Arducopter/logs directory. To convert the files, run the BIN files through the pymavlink program, via the file pymavlink/tools/mavlogdump.py. Run it using the following command:
-python mavlogdump.py --planner --format SIM --types SIM <#>.BIN >> <#>.csv
+
+  python mavlogdump.py --planner --format SIM --types SIM <#>.BIN >> <#>.csv
+
 The script 'create_csv.sh' located in /scripts/ will convert all the flight logs in the directory.
 Once all the BIN files are converted to csv, place the true and false paths into the unformatted_auto folder. Afterwards run the convert_csv.py file using:
 sudo python convert_csv.py
