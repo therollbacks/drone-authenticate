@@ -64,17 +64,17 @@ sudo apt-get install cmake
 Go to folder ArduCopter:
 cd ~/../ardupilot/ArduCopter
 
-Then run:
-sim_vehicle.py -j4 --console --map
-STABILIZE > wp load ../Tools/autotest/ArduPlane-Missions/CMAC-toff-loop.txt
-STABILIZE > wp load ../Tools/autotest/ArduPlane-Missions/good_flight.txt
-STABILIZE > wp load ../Tools/autotest/ArduPlane-Missions/bad_flight.txt
-STABILIZE> mode guided
-STABILIZE> GUIDED> arm throttle
-GUIDED> takeoff 20
-GUIDED> mode auto
-AUTO> mode rtl
-AUTO> RTL> mode land
+Then run: <br> 
+sim_vehicle.py -j4 --console --map <br> 
+STABILIZE > wp load ../Tools/autotest/ArduPlane-Missions/CMAC-toff-loop.txt <br> 
+STABILIZE > wp load ../Tools/autotest/ArduPlane-Missions/good_flight.txt <br> 
+STABILIZE > wp load ../Tools/autotest/ArduPlane-Missions/bad_flight.txt <br> 
+STABILIZE> mode guided <br> 
+STABILIZE> GUIDED> arm throttle <br> 
+GUIDED> takeoff 20 <br> 
+GUIDED> mode auto <br> 
+AUTO> mode rtl <br> 
+AUTO> RTL> mode land <br> 
 
 ## Converting from BIN to CSV:
 -----razqi ryon write here. As detailed as possible. and ryong add ur conversion scripts if they not on github already.
