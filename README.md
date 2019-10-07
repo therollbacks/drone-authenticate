@@ -1,6 +1,6 @@
 # drone-authenticate
 Ardupilot Authentication
-Uses the data collected from running a predefined drone path to authenticate real drone data from fake ones.
+Autonomous Internet-of-Things (IoT) are comprised of moving objects such as drones and rovers that use self-control techniques to accomplish a mission while following a path. However, losing control in such systems usually by spoofing their sensors or hijacking with misleading commands can lead to catastrophic safety consequences. In this project, we close the gap by authenticating the behavior of autonomous IoT systems during operation. In particular, we check the behavior of a moving IoT object(drone) by evaluating its time-series telemetry traces during the flight. In this program we apply three machine learning techniques on the collected data, namely, K-Nearest Neighbour (KNN), Support Vector Machine (SVM), and Logistic Regression (LR). 
 
 
 ## Table of Contents
@@ -13,8 +13,10 @@ Uses the data collected from running a predefined drone path to authenticate rea
 
 
 ## Features:
-**Data preprocessor** - Run data preprocessor.py to format drone data into a usable format and gets rid of noise. <br>
-**One class SVM** - Load a .obj or .ply file to classify its shape
+**Ardupilot simulator** - Maps the routes and settings of a simulated drone flight. ArduPilot (sometimes known as APM) is the leading open source autopilot system supporting multi-copters, fixed wing aircraft, rovers, submarines and antenna trackers. The code is open-source and written in CPP. <br>
+**Pymavlink BIN to CSV converter** - Formats drone data into a usable format and gets rid of noise. <br>
+**Data preprocessor** - Detailed preprocessor for formatting and cleaning data into a usable format. <br>
+**One class SVM** - Machine learning model #1 that authenticates the true drone data.
 **KNN** - Performs K nearest neighbour to sort each data points into real or fake data classfication.
 **Logistic Regression** - Performs calculations to determine which group each data point belongs.
 
