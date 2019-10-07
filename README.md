@@ -78,6 +78,19 @@ AUTO> RTL> mode land <br>
 
 ## Converting from BIN to CSV:
 -----razqi ryon write here. As detailed as possible. and ryong add ur conversion scripts if they not on github already.
+----- i dont remember the part here
+Once all the BIN files are converted to csv, place the true and false paths into the unformatted_auto folder. Afterwards run the convert_csv.py file using:
+sudo python convert_csv.py
+
+## Comparing CSV files:
+-----yeet if anyone remembers or if i forgot anything you know? :)
+
+This section will use our comparison method created to detect the false path in the flight data.
+After Converting all files from BIN to CSV, Rename the the true and false path CSVs. The true path is named dp_001 and the false path is named gp_001.
+run:
+sudo python compare_csv.py
+
+All compared paths will appear in the compared folder and is ready to be used for testing.
 
 ## Performance Matrix: 
 For each of our machine learning models, we use an in house performance matrix for the purpose of evaluation and tweaking. There are four variables, TP, FP, FN, TN.
