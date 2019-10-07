@@ -10,7 +10,6 @@ Autonomous Internet-of-Things (IoT) are comprised of moving objects such as dron
 4. [Run the Ardupilot environment](#Run-the-PyScan-virtual-environment)
 5. [Converting from BIN to CSV](#converting)
 6. [Performance Matrix](#matrix)
-7. [Troubleshooting](#Troubleshooting)
 
 
 
