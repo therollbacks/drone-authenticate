@@ -8,7 +8,9 @@ Autonomous Internet-of-Things (IoT) are comprised of moving objects such as dron
 2. [Known Application Bugs](#Known-Application-Bugs)
 3. [Installation](#Installation)
 4. [Run the Ardupilot environment](#Run-the-PyScan-virtual-environment)
-6. [Troubleshooting](#Troubleshooting)
+5. [Converting from BIN to CSV](#converting)
+6. [Performance Matrix](#matrix)
+7. [Troubleshooting](#Troubleshooting)
 
 
 
@@ -16,14 +18,15 @@ Autonomous Internet-of-Things (IoT) are comprised of moving objects such as dron
 **Ardupilot simulator** - Maps the routes and settings of a simulated drone flight. ArduPilot (sometimes known as APM) is the leading open source autopilot system supporting multi-copters, fixed wing aircraft, rovers, submarines and antenna trackers. The code is open-source and written in CPP. <br>
 **Pymavlink BIN to CSV converter** - Formats drone data into a usable format and gets rid of noise. <br>
 **Data preprocessor** - Detailed preprocessor for formatting and cleaning data into a usable format. <br>
-**One class SVM** - Machine learning model #1 that authenticates the true drone data.
-**KNN** - Performs K nearest neighbour to sort each data points into real or fake data classfication.
-**Logistic Regression** - Performs calculations to determine which group each data point belongs.
-
+**One class SVM** - Machine learning model #1 that authenticates the true drone data. <br>
+**KNN** - Performs K nearest neighbour to sort each data points into real or fake data classfication. <br>
+**Logistic Regression** - Performs calculations to determine which group each data point belongs. <br>
 
 
 ## Known Application Bugs
-- The labeling process for one class svm can be vague.
+- The labeling process may be too specific which can cause overfitting; other flight modes may not be compatible with our machine learning models. <br>
+- KNN takes a significanlty longer time to run compared to One Class SVM and Logistic regression. <br>
+- All of our data is stored locally and on github. It is not ideal and prone to security and processing issues. <br>
 
 ## Installation:
 
@@ -35,3 +38,53 @@ For our program, we used Python 3.6.
 Download Git from [here](https://git-scm.com/downloads). You will need this to clone the GitHub repository.
 
 ### Install Arudpilot
+1.	You should clone the Ardupilot source code from the repository first
+git clone https://github.com/ArduPilot/ardupilot.git
+cd ardupilot
+git submodule init
+git submodule update
+Tools/scripts/install-prereqs-ubuntu.sh -y
+sudo apt-get install cmake
+. ~/.profile
+
+#LOG OUT AND LOG BACK IN
+
+2. for target specific platform use --board
+./waf configure --board px4-v2
+./waf copter
+
+3. for target specific platform use --board
+./waf configure --board px4-v2
+./waf copter
+
+
+## Run the Ardupilot Environment:
+
+4. Once installed, to run the drone simulation, follow the commands: 
+Go to folder ArduCopter:
+cd ~/../ardupilot/ArduCopter
+
+Then run:
+sim_vehicle.py -j4 --console --map
+STABILIZE > wp load ../Tools/autotest/ArduPlane-Missions/CMAC-toff-loop.txt
+STABILIZE > wp load ../Tools/autotest/ArduPlane-Missions/good_flight.txt
+STABILIZE > wp load ../Tools/autotest/ArduPlane-Missions/bad_flight.txt
+STABILIZE> mode guided
+STABILIZE> GUIDED> arm throttle
+GUIDED> takeoff 20
+GUIDED> mode auto
+AUTO> mode rtl
+AUTO> RTL> mode land
+
+## Converting from BIN to CSV:
+-----razqi ryon write here. As detailed as possible. and ryong add ur conversion scripts if they not on github already.
+
+## Performance Matrix: 
+For each of our machine learning models, we use an in house performance matrix for the purpose of evaluation and tweaking. There are four variables, TP, FP, FN, TN.
+1) TP(True Positives/ sensitivity): TP / (TP + FN) 
+2) TN(True Negatives/ specificity): TN / (TN + FP)
+3) Accuracy: (TP + TN) / (TP + FN + FP + TN)
+
+
+
+
