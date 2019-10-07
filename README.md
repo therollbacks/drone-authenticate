@@ -60,7 +60,7 @@ sudo apt-get install cmake
 
 ## Run the Ardupilot Environment:
 
-4. Once installed, to run the drone simulation, follow the commands: 
+Once installed, to run the drone simulation, follow the commands: 
 Go to folder ArduCopter:
 cd ~/../ardupilot/ArduCopter
 
@@ -77,14 +77,16 @@ AUTO> mode rtl <br>
 AUTO> RTL> mode land <br> 
 
 ## Converting from BIN to CSV:
------razqi ryon write here. As detailed as possible. and ryong add ur conversion scripts if they not on github already.
------ i dont remember the part here
+The conversion from BIN to csv is initially handled by a seperate program known as pymavlink. The link to access this is here:
+https://github.com/ArduPilot/pymavlink/tree/master/tools
+
+The BIN files generated from running the simulator get saved to the /Arducopter/logs directory. To convert the files, run the BIN files through the pymavlink program, via the file pymavlink/tools/mavlogdump.py. Run it using the following command:
+python mavlogdump.py --planner --format SIM --types SIM <#>.BIN >> <#>.csv
+The script 'create_csv.sh' located in /scripts/ will convert all the flight logs in the directory.
 Once all the BIN files are converted to csv, place the true and false paths into the unformatted_auto folder. Afterwards run the convert_csv.py file using:
 sudo python convert_csv.py
 
 ## Comparing CSV files:
------yeet if anyone remembers or if i forgot anything you know? :)
-
 This section will use our comparison method created to detect the false path in the flight data.
 After Converting all files from BIN to CSV, Rename the the true and false path CSVs. The true path is named dp_001 and the false path is named gp_001.
 run:
